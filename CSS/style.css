@@ -90,7 +90,35 @@
     width: 250px;
     height: auto;
 }
-
+.teacherfont1{
+    font-family: proxima-nova,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #294451;
+}
+.teacherfont2{
+    padding-top: 50px;
+    font-family: proxima-nova,sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.1;
+    color: #294451;
+}
+.hiw-frame {
+    background-image: url(../hiw-frame-2.png);
+    background-size: 96.5%;
+    background-position: 50%;
+    height: 700px;
+    z-index: 100;
+    position: relative;
+}
+.hiw-image {
+    width: 300px;
+    height: 497px;
+    padding-left: 13px;
+}
 @media (max-width: 768px){
     .cardsetting{
        margin-bottom: 20px;
